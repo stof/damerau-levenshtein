@@ -51,7 +51,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer install --dev --no-ansi --no-progress --no-interaction --quiet;
+          composer install --dev --no-ansi --no-progress --no-interaction;
 
       - name: Test code
         run: |
@@ -90,7 +90,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer install --dev --no-ansi --no-progress --no-interaction --quiet;
+          composer install --dev --no-ansi --no-progress --no-interaction;
 
       - name: Run phpcs
         run: |
@@ -177,7 +177,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer install --dev --no-ansi --no-progress --no-interaction --quiet;
+          composer install --dev --no-ansi --no-progress --no-interaction;
 
       - name: Generate coverage report
         run: |
